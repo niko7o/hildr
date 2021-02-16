@@ -10,7 +10,7 @@ export default {
     ],
     output: {
         file: './dist/game.js',
-        name: 'MyGame',
+        name: 'HildrGame',
         format: 'iife',
         sourcemap: false,
     },
