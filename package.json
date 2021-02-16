@@ -4,9 +4,9 @@
     "description": "Viking-inspired 2D top-down videogame",
     "main": "src/game.ts",
     "scripts": {
-        "dev": "rollup --config rollup.config.dev.js",
-        "build": "rollup --config rollup.config.dist.js",
-        "watch": "rollup --watch --config rollup.config.dev.js"
+        "dev": "rollup --config ./configs/rollup.config.dev.js",
+        "build": "rollup --config ./configs/rollup.config.dist.js",
+        "watch": "rollup --watch --config ./configs/rollup.config.dev.js"
     },
     "repository": {
         "type": "git",
